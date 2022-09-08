@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diggs xmlns="http://diggsml.org/schemas/2.6" xmlns:diggs="http://diggsml.org/schemas/2.6"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:g3.3="http://www.opengis.net/gml/3.3/ce"
+    xmlns:glr="http://www.opengis.net/gml/3.3/lr" xmlns:glrov="http://www.opengis.net/gml/3.3/lrov"
+    xmlns:diggs_geo="http://diggsml.org/schemas/2.6/geotechnical"
+    xmlns:witsml="http://www.witsml.org/schemas/131"
+    xsi:schemaLocation="http://diggsml.org/schemas/2.6 ../Diggs.xsd" gml:id="bcd">
+
+    <documentInformation>
+        <DocumentInformation gml:id="DOC_ID">
+            <creationDate>2022-08-31</creationDate>
+            <author>
+                <BusinessAssociate gml:id="BA_ID">
+                    <gml:name>Nick Machairas</gml:name>
+                </BusinessAssociate>
+            </author>
+        </DocumentInformation>
+    </documentInformation>
+    
+    <project>
+        <Project gml:id="PROJECT_ID">
+            <gml:name>Fargo Diversion Inlet Structure W912ES-17-C-0003</gml:name>
+            <internalIdentifier codeSpace="">M1161241</internalIdentifier>
+            <role>
+                <Role>
+                    <rolePerformed>Client</rolePerformed>
+                    <businessAssociate>
+                        <BusinessAssociate gml:id="CLIENT_ID">
+                            <gml:name>Ames Construction Inc. Attn: Lynn Meyer</gml:name>
+                            <address>
+                                <Address gml:id="CLIENT_ADDRESS_ID">
+                                    <streetAddress>2000 Ames Dr</streetAddress>
+                                    <city>Burnsville</city>
+                                    <state>MN</state>
+                                    <postalCode>55306-5096</postalCode>
+                                </Address>
+                            </address>
+                        </BusinessAssociate>
+                    </businessAssociate>
+                </Role>
+            </role>
+            <locality>
+                <Locality gml:id="LOC_ID">
+                    <address>
+                        <Address gml:id="ADDRESS_ID">
+                            <streetAddress>6305 124th Ave South</streetAddress>
+                            <city>Horace</city>
+                            <state>ND</state>
+                            <postalCode>58047</postalCode>
+                        </Address>
+                    </address>
+                </Locality>
+            </locality>
+            <projectEvent>
+                <ProjectEvent gml:id="PE_ID">
+                    <gml:identifier codeSpace="">M1161241.0132</gml:identifier>
+                    <gml:name>Pile Driving Observation Report</gml:name>
+                    <time>
+                        <TimeInterval gml:id="TI_ID">
+                            <start>2020-07-07</start>
+                            <end>2020-07-08</end>
+                        </TimeInterval>
+                    </time>
+                </ProjectEvent>
+            </projectEvent>
+        </Project>
+    </project>
+    
+
+</Diggs>
